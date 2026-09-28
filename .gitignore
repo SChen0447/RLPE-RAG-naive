@@ -1,0 +1,48 @@
+# 环境变量与密钥
+.env
+.env.local
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# 测试与缓存
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+
+# 数据与向量库（本地生成，可重新构建）
+data_base/
+
+# 日志
+*.log
+logs/
+
+# IDE / 编辑器
+.idea/
+*.swp
+*.swo
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# LangChain 本地缓存
+.cache/
